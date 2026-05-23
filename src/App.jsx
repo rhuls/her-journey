@@ -14,12 +14,12 @@ const navItems = [
 ];
 
 const galleryItems = [
-  { key: 'memory1', src: './Her Pictures/23fee02f-e552-48bd-a12f-efb529ea0537.JPG', label: 'Memory 1', caption: 'A moment from the journey' },
-  { key: 'memory2', src: './Her Pictures/3c04e645-ee01-4f23-8537-12512d12ddfc.JPG', label: 'Memory 2', caption: 'A moment from the journey' },
-  { key: 'memory3', src: './Her Pictures/5c9038a4-cee0-48da-8b5d-0dbd91d753c2.JPG', label: 'Memory 3', caption: 'A moment from the journey' },
-  { key: 'memory4', src: './Her Pictures/c98498c6-4742-4154-9f8d-03a8b826225a.JPG', label: 'Memory 4', caption: 'A moment from the journey' },
-  { key: 'memory5', src: './Her Pictures/cba10823-4418-4935-b5e7-a6b45641f775.JPG', label: 'Memory 5', caption: 'A moment from the journey' },
-  { key: 'memory6', src: './Her Pictures/ddef480f-a8ce-4d9d-ab0d-a6618340ba41.JPG', label: 'Memory 6', caption: 'A moment from the journey' }
+  { key: 'memory1', src: '/Her Pictures/23fee02f-e552-48bd-a12f-efb529ea0537.JPG', label: 'Memory 1', caption: 'A moment from the journey' },
+  { key: 'memory2', src: '/Her Pictures/3c04e645-ee01-4f23-8537-12512d12ddfc.JPG', label: 'Memory 2', caption: 'A moment from the journey' },
+  { key: 'memory3', src: '/Her Pictures/5c9038a4-cee0-48da-8b5d-0dbd91d753c2.JPG', label: 'Memory 3', caption: 'A moment from the journey' },
+  { key: 'memory4', src: '/Her Pictures/c98498c6-4742-4154-9f8d-03a8b826225a.JPG', label: 'Memory 4', caption: 'A moment from the journey' },
+  { key: 'memory5', src: '/Her Pictures/cba10823-4418-4935-b5e7-a6b45641f775.JPG', label: 'Memory 5', caption: 'A moment from the journey' },
+  { key: 'memory6', src: '/Her Pictures/ddef480f-a8ce-4d9d-ab0d-a6618340ba41.JPG', label: 'Memory 6', caption: 'A moment from the journey' }
 ];
 
 function App() {
@@ -293,7 +293,7 @@ function App() {
             </div>
             <div>
               <div className="pp">
-                <img src="./Her Pictures/The Beginning.JPG" alt="The Beginning" />
+                <img src="/Her Pictures/The Beginning.JPG" alt="The Beginning" />
               </div>
             </div>
           </div>
@@ -344,7 +344,7 @@ function App() {
             </div>
             <div>
               <div className="pp">
-                <img src="./Her Pictures/First Graduation.jpg" alt="First Graduation - First Crown" />
+                <img src="/Her Pictures/First Graduation.jpg" alt="First Graduation - First Crown" />
               </div>
             </div>
           </div>
@@ -381,7 +381,7 @@ function App() {
             </div>
             <div>
               <div className="pp">
-                <img src="./Her Pictures/Second Graduation.JPG" alt="Second Graduation - Honours" />
+                <img src="/Her Pictures/Second Graduation.JPG" alt="Second Graduation - Honours" />
               </div>
             </div>
           </div>
